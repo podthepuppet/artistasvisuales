@@ -4,16 +4,24 @@
 		<!-- section -->
 		<section>
 
-			<h1><?php _e( 'Categories for ', 'html5blank' ); single_cat_title(); ?></h1>
-
-			<?php get_template_part('loop'); ?>
-
-			<?php get_template_part('pagination'); ?>
-
+			<div class="section">
+			  <div class="container">
+			    <div class="row">
+			      <div class="col-md-8">
+			        <div class="col-md-12"><h1><?php _e( 'Categories for ', 'html5blank' ); single_cat_title(); ?></h1>
+								<?php get_template_part('loop'); ?>
+								<?php get_template_part('pagination'); ?>
+							</div>
+			        <div class="col-md-12"></div>
+			        <div class="col-md-12"></div>
+			      </div>
+			      <div class="col-md-4"><?php get_sidebar(); ?></div>
+			    </div>
+			  </div>
+			</div>
 		</section>
 		<!-- /section -->
 	</main>
 
-<?php get_sidebar(); ?>
 
 <?php get_footer(); ?>
