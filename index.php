@@ -9,6 +9,7 @@
 							<div class="row">
 								<div class="col-md-12">
 									<center><h1><?php _e( 'Latest Posts', 'html5blank' ); ?></h1>
+										<h1>AQUÍ VA A IR LA IMAGEN DEL ARBOLITO DE CATEGORÍAS</h1>
 										<?php get_template_part('loop'); ?>
 											<?php get_template_part('pagination'); ?></center>
 								</div>
