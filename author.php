@@ -32,7 +32,7 @@
 	            <?php dynamic_sidebar( 'slide-wget' ); ?>
 	        </div><!-- #primary-sidebar -->
 	    <?php endif; ?></div>
-				<div class="col-md-12" id="contenido-author">
+				<div class="col-md-12" id="contenido-author">	
 					<?php rewind_posts(); while (have_posts()) : the_post(); ?>
 					<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
